@@ -1,15 +1,16 @@
 <script setup>
-// import HelloWorld from './components/HelloWorld.vue'
 import Navbar from './components/Navbar.vue';
+import Hero from './components/Hero.vue';
 </script>
 
 <template>
-  <!-- <HelloWorld msg="Vite + Vue" /> -->
   <Navbar/>
+  <Hero/>
 </template>
 
 <style lang="scss">
       body{
         height: 100vh;
+        overflow-x: auto;
       }
 </style>

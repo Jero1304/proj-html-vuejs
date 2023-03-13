@@ -1,0 +1,65 @@
+<template>
+    <div class="bg-hero">
+        <div class="container">
+            <div class="row align-items-center justify-content-center">
+                <div class="col-8">
+                    <h3 class="text-danger">Certifild fiteness professional</h3>
+                    <h1 class="hero-title">Take control of your health</h1>
+                    <p>/\/\/\</p>
+                    <p class="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, itaque.</p>
+
+                    <div class="hero-btn">
+                        <button type="button" class="btn btn-primary">
+                            visit my YouTube channel
+                        </button>
+                        <button type="button" class="btn border">
+                            Buy Avada today
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col hero-play">
+                    <h1>play</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</template>
+
+<script>
+
+</script>
+
+<style scoped lang="scss">
+.bg-hero{
+    background-image: linear-gradient(90deg,black 45%,rgba(6,6,7,0) 75%),url('../img/slider82x-scaled.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 600px;
+    color: white;
+    .container{
+        padding: 70px;
+        .hero-title{
+            font-size: 64px;
+        }
+        .hero-text{
+            color: grey;
+            font-size: 20px;
+        }
+        .hero-play{
+            display: flex;
+            justify-content: end;
+        }
+        .hero-btn > button{
+            padding: 15px 35px;
+            border-radius: 30px;
+            margin-right: 15px;
+            font-weight: bold;
+            color: white;
+            margin-top: 30px;
+        }
+    }
+}
+
+</style>
