@@ -39,9 +39,9 @@
     min-height: 600px;
     color: white;
     .container{
-        padding: 70px;
+        padding-top: 100px;
         .hero-title{
-            font-size: 64px;
+            font-size: 68px;
         }
         .hero-text{
             color: grey;
