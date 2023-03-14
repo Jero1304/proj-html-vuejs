@@ -50,6 +50,8 @@
 <style scoped lang="scss">
 .container{
     padding-top: 140px;
+    margin-bottom: 100px;
+
     .card{
         width: 400px;
         border: none;
