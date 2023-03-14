@@ -8,7 +8,12 @@
                 <p class="sub-title">Tune up your workouts</p>
                 <h1 class="title">The best health & fiteness advice online</h1>
                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat tenetur possimus sunt totam ab?</p>
-                <button type="button" class="btn btn-danger">Visit my YouTube channel</button>
+                <button type="button" class="btn btn-danger">
+                    <span>
+                        <font-awesome-icon icon="fa-brands fa-youtube" class="px-2"/>
+                    </span>
+                    Visit my YouTube channel
+                </button>
             </div>
         </div>
     </div>

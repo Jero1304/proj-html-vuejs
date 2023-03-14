@@ -9,7 +9,12 @@
                     </p>
                 
                     <div class="row social">
-                        social
+                        <font-awesome-icon class="col-1 social-item" icon="fa-brands fa-facebook" />
+                        <font-awesome-icon class="col-1 social-item" icon="fa-brands fa-twitter" />
+                        <font-awesome-icon class="col-1 social-item" icon="fa-brands fa-youtube" />
+                        <font-awesome-icon class="col-1 social-item" icon="fa-brands fa-instagram" />
+                        <font-awesome-icon class="col-1 social-item" icon="fa-brands fa-linkedin" />
+
                     </div>
                 </div>
             
@@ -58,7 +63,6 @@
 <style scoped lang="scss">
 .bg-footer{
     background-color: black;
-    // min-height: 1000px;
     .container{
         padding: 150px 0;
         text-align: center;
@@ -68,6 +72,18 @@
         .info{
             color: white;
             font-size: 18px;
+        }
+        .footer-social{
+            .social{
+                justify-content: center;
+                align-items: center;
+                padding-top: 30px;
+                .social-item{
+                    font-size: 20px;
+                    padding: 0 7px;
+                    color: rgb(178, 0, 0);       
+                }
+            }
         }
         .footer-post{
             color:white;

@@ -10,10 +10,16 @@
 
                     <div class="hero-btn">
                         <button type="button" class="btn btn-primary">
-                            visit my YouTube channel
+                            <font-awesome-icon icon="fa-brands fa-youtube" class="px-2"/>
+                           <span>
+                                visit my YouTube channel
+                           </span>
                         </button>
                         <button type="button" class="btn border">
-                            Buy Avada today
+                           <span class="px-2">
+                                Buy Avada today
+                           </span>
+                           <font-awesome-icon icon="fa-solid fa-arrow-right" />
                         </button>
                     </div>
 
@@ -58,6 +64,7 @@
             font-weight: bold;
             color: white;
             margin-top: 30px;
+            font-size: 16px;
         }
     }
 }

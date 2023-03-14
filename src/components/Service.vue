@@ -56,25 +56,28 @@
     background: rgb(14,0,255);
     background: linear-gradient(135deg, rgba(14,0,255,1) 0%, rgba(141,0,150,1) 50%, rgba(255,0,0,1) 100%);
     padding: 0 120px 200px;
-    .card{
-        background: none;
-        width: 400px;
-        padding: 0;
-        margin: -60px 20px 30px;
-        border: none;
-        img{
-            border-radius: 0 0 50px;
-        }
-        .card-img-overlay{
-            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
-            position: absolute;
-            bottom: 0;
-            top:auto;
-            color: white;
-            padding: 30px;
-            border-radius: 0 0 50px;
-            .card-text{
-                color: yellow;
+    .row{
+        margin: 0 -1.5rem;
+        .card{
+            background: none;
+            width: 400px;
+            padding: 0;
+            margin: -60px 20px 30px;
+            border: none;
+            img{
+                border-radius: 0 0 50px;
+            }
+            .card-img-overlay{
+                background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+                position: absolute;
+                bottom: 0;
+                top:auto;
+                color: white;
+                padding: 30px;
+                border-radius: 0 0 50px;
+                .card-text{
+                    color: yellow;
+                }
             }
         }
     }

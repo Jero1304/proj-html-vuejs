@@ -6,7 +6,12 @@
                     <p class="play">play</p>
                     <h2 class="title">Crossfit workout of the day</h2>
                     <p class="date">November 15th, 2019</p>
-                    <a class="link" href="">View all videos</a>
+                    <a class="link" href="">
+                        View all videos
+                        <span class="px-2">
+                           <font-awesome-icon icon="fa-solid fa-arrow-right" />
+                        </span>
+                    </a>
                 </div>
             </div>
         </div>
