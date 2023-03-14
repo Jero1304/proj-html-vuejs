@@ -8,7 +8,9 @@ import HeroSubscribe from './components/HeroSubscribe.vue';
 import CardService from './components/CardService.vue';
 import OtherArticles from './components/OtherArticles.vue';
 import HeroCitation from './components/HeroCitation.vue';
-import Parteners from './components/Partners.vue'
+import Parteners from './components/Partners.vue';
+import HeroDailyWorkout from './components/HeroDailyWorkout.vue';
+import FooterInfo from './components/FooterInfo.vue';
 </script>
 
 <template>
@@ -28,7 +30,9 @@ import Parteners from './components/Partners.vue'
   <footer>
     <OtherArticles/>
     <HeroCitation/>
-    // <Parteners/>
+    <Parteners/>
+    <HeroDailyWorkout/>
+    <FooterInfo/>
   </footer>
 </template>
 
