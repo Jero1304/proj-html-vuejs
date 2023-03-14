@@ -36,10 +36,10 @@
     background-image: linear-gradient(90deg,black 45%,rgba(6,6,7,0) 75%),url('../img/slider82x-scaled.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    min-height: 600px;
+    padding-bottom: 300px;
     color: white;
     .container{
-        padding-top: 100px;
+        padding-top: 200px;
         .hero-title{
             font-size: 68px;
         }

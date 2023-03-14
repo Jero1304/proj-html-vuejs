@@ -12,7 +12,7 @@
                 </div>
 
                 <div class="card">
-                    <img src="../img/service6-2x.jpg" class="card-img" alt="...">
+                    <img src="../img/box1-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
                         <p>/\/\/\</p>
                         <h2 class="card-title">Crossfit Workout</h2>
@@ -21,7 +21,7 @@
                 </div>
 
                 <div class="card">
-                    <img src="../img/service6-2x.jpg" class="card-img" alt="...">
+                    <img src="../img/box3-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
                         <p>/\/\/\</p>
                         <h2 class="card-title">Crossfit Workout</h2>
@@ -55,29 +55,36 @@
 .bg-service{
     background: rgb(14,0,255);
     background: linear-gradient(135deg, rgba(14,0,255,1) 0%, rgba(141,0,150,1) 50%, rgba(255,0,0,1) 100%);
-    padding: 0 120px 150px;
+    padding: 0 120px 200px;
     .card{
         background: none;
         width: 400px;
         padding: 0;
-        margin: 0 20px 30px;
+        margin: -60px 20px 30px;
         border: none;
         img{
             border-radius: 0 0 50px;
         }
         .card-img-overlay{
+            background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
             position: absolute;
             bottom: 0;
             top:auto;
             color: white;
+            padding: 30px;
+            border-radius: 0 0 50px;
+            .card-text{
+                color: yellow;
+            }
         }
     }
 
     .citation{
         text-align: center;
+        padding-bottom: 70px;
         .text-citation{
             color: white;
-            padding: 0 150px;
+            padding: 100px 150px 0;
         }
         .person-citation{
             display: flex;
