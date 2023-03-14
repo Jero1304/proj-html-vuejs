@@ -6,7 +6,9 @@ import ChannelYT from './components/ChannelYT.vue';
 import Playlist from './components/Playlist.vue';
 import HeroSubscribe from './components/HeroSubscribe.vue';
 import CardService from './components/CardService.vue';
-
+import OtherArticles from './components/OtherArticles.vue';
+import HeroCitation from './components/HeroCitation.vue';
+import Parteners from './components/Partners.vue'
 </script>
 
 <template>
@@ -22,6 +24,12 @@ import CardService from './components/CardService.vue';
     <HeroSubscribe/>
     <CardService/>
   </main>
+  
+  <footer>
+    <OtherArticles/>
+    <HeroCitation/>
+    // <Parteners/>
+  </footer>
 </template>
 
 <style lang="scss">
