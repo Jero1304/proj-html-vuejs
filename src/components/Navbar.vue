@@ -6,8 +6,8 @@
             </a>
 
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
-                <ul class="navbar-nav">
-                    <li class="nav-item">
+                <ul class="navbar-nav d-flex align-items-center">
+                    <li class="nav-item active">
                         <a class="nav-link active" aria-current="page" href="#">Home</a>
                     </li>
                     
@@ -16,7 +16,11 @@
                     </li>
 
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="#">About</a>
+                        <a class="nav-link" href="#">About</a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Videos</a>
                     </li>
                     
                     <li class="nav-item">
@@ -27,23 +31,30 @@
                         <a class="nav-link" href="#">Store</a>
                     </li>
 
+                    
                     <!-- <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Dropdown link
-                        </a>
-                        <ul class="dropdown-menu">
-                            <li><a class="dropdown-item" href="#">Action</a></li>
-                            <li><a class="dropdown-item" href="#">Another action</a></li>
-                            <li><a class="dropdown-item" href="#">Something else here</a></li>
-                        </ul>
-                    </li> -->
-
-                    <button type="button" class="btn btn-primary mx-3 px-3 rounded-pill">Schedule a workout</button>
-
-
-                </ul>
-            </div>
+                        aria-expanded="false">
+                        Dropdown link
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="#">Action</a></li>
+                        <li><a class="dropdown-item" href="#">Another action</a></li>
+                        <li><a class="dropdown-item" href="#">Something else here</a></li>
+                    </ul>
+                </li> -->
+                
+                <button type="button" class="btn btn-primary mx-3 px-3 rounded-pill">Schedule a workout</button>
+                
+                
+                <li class="nav-item text-white">
+                    <font-awesome-icon icon="fa-solid fa-magnifying-glass" />
+                </li>
+                <li class="nav-item text-white px-3">
+                    <font-awesome-icon icon="fa-solid fa-cart-shopping" />
+                </li>
+            </ul>
+        </div>
         </div>
     </nav>
 </template>

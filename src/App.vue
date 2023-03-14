@@ -2,6 +2,7 @@
 import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
 import Service from './components/Service.vue';
+import ChannelYT from './components/ChannelYT.vue';
 </script>
 
 <template>
@@ -12,6 +13,7 @@ import Service from './components/Service.vue';
 
   <main>
     <Service/>
+    <ChannelYT/>
   </main>
 </template>
 
