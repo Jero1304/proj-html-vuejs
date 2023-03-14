@@ -3,6 +3,7 @@ import Navbar from './components/Navbar.vue';
 import Hero from './components/Hero.vue';
 import Service from './components/Service.vue';
 import ChannelYT from './components/ChannelYT.vue';
+import Playlist from './components/Playlist.vue';
 </script>
 
 <template>
@@ -14,6 +15,7 @@ import ChannelYT from './components/ChannelYT.vue';
   <main>
     <Service/>
     <ChannelYT/>
+    <Playlist/>
   </main>
 </template>
 
