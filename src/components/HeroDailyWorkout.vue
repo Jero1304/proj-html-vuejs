@@ -3,7 +3,7 @@
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-8">
-                    <p class="play">play</p>
+                    <PlayButton class="play-component"/>
                     <h2 class="title">Crossfit workout of the day</h2>
                     <p class="date">November 15th, 2019</p>
                     <a class="link" href="">
@@ -19,7 +19,12 @@
 </template>
 
 <script>
-
+import PlayButton from './PlayButton.vue';
+export default{
+    components:{
+        PlayButton,
+    }
+}
 </script>
 
 <style scoped lang="scss">
@@ -33,8 +38,10 @@
     text-align: center;
     .container{
         padding-top: 300px;
-        .play{
-            font-size: 40px;
+        .play-component{
+            width: 100px;
+            height: 100px;
+            margin: 0 auto;
         }
         .title{
             font-size: 54px;

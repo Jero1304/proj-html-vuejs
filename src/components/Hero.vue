@@ -2,7 +2,7 @@
     <div class="bg-hero">
         <div class="container">
             <div class="row align-items-center justify-content-center">
-                <div class="col-8">
+                <div class="col-9">
                     <h3 class="text-danger">Certifild fiteness professional</h3>
                     <h1 class="hero-title">Take control of your health</h1>
                     <p>/\/\/\</p>
@@ -25,7 +25,7 @@
 
                 </div>
                 <div class="col hero-play">
-                    <h1>play</h1>
+                    <PlayButton/>
                 </div>
             </div>
         </div>
@@ -34,6 +34,12 @@
 </template>
 
 <script>
+import PlayButton from './PlayButton.vue';
+export default{
+    components:{
+        PlayButton,
+    }
+}
 
 </script>
 
@@ -42,7 +48,7 @@
     background-image: linear-gradient(90deg,black 45%,rgba(6,6,7,0) 75%),url('../img/slider82x-scaled.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    padding-bottom: 300px;
+    padding-bottom: 200px;
     color: white;
     .container{
         padding-top: 200px;
@@ -56,6 +62,8 @@
         .hero-play{
             display: flex;
             justify-content: end;
+            height: 100px;
+            width: 100px;
         }
         .hero-btn > button{
             padding: 15px 35px;

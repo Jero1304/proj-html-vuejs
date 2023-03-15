@@ -21,7 +21,6 @@ export default {
     Playlist,
     HeroSubscribe,
     CardService,
-
     OtherArticles,
     HeroCitation,
     Parteners,

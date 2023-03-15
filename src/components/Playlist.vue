@@ -7,7 +7,7 @@
         <div class="row gap-4">
             <div class="card col">
                 <div class="cover">
-                    <p class="play">play</p>
+                    <PlayButton class="play-component"/>
                     <img src="../img/video2-2x.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
@@ -18,7 +18,7 @@
 
             <div class="card col">
                 <div class="cover">
-                    <p class="play">play</p>
+                    <PlayButton class="play-component"/>
                     <img src="../img/video7-2x.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
@@ -29,7 +29,7 @@
 
             <div class="card col">
                 <div class="cover">
-                    <p class="play">play</p>
+                    <PlayButton class="play-component"/>
                     <img src="../img/video9-2x.jpg" class="card-img-top" alt="...">
                 </div>
                 <div class="card-body">
@@ -44,7 +44,12 @@
 </template>
 
 <script>
-
+import PlayButton from './PlayButton.vue';
+export default{
+    components:{
+        PlayButton,
+    }
+}
 </script>
 
 <style scoped lang="scss">
@@ -57,12 +62,14 @@
         border: none;
         position: relative;
         .cover{
-            .play{
-                color: white;
+            .play-component{
                 position: absolute;
-                top: 30%;
+                top: 25%;
                 right: 50%;
-                transform: translate(50%,50%);
+                transform: translate(50%,25%);
+                width: 10px;
+                font-size: 16px;
+                padding: 15px 25px;
             }
             img{
                 border-radius: 0 0 50px;

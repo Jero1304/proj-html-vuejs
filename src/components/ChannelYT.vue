@@ -1,8 +1,8 @@
 <template>
     <div class="channel-yt">
-        <div class="row">
+        <div class="row m-0">
             <div class="col video-yt">
-                <h1 class="text-white">play</h1>
+                <PlayButton class="play-component"/>
             </div>
             <div class="col container text">
                 <p class="sub-title">Tune up your workouts</p>
@@ -21,6 +21,12 @@
 </template>
 
 <script>
+import PlayButton from './PlayButton.vue';
+export default{
+    components:{
+        PlayButton,
+    }
+}
 
 </script>
 
@@ -31,11 +37,14 @@
         background-repeat: no-repeat;
         background-size: cover;
         height: 900px;
-        width: 1000px;
         border-radius: 0 0 50px;
         display: flex;
         align-items: center;
         justify-content: center;
+        .play-component{
+            width: 100px;
+            height: 100px;
+        }
     }
     .container{
         padding: 120px 100px;

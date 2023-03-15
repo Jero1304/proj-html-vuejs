@@ -107,6 +107,8 @@ export default {
 
     .nav-item>a {
         color: white;
+        font-size: 18px;
+        padding: 0 20px;
     }
 }
 </style>
