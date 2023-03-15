@@ -22,6 +22,7 @@
     align-items: center;
     &:hover{
         color: red;
+        border: 2px solid red;
     }
 }
 </style>

@@ -81,7 +81,11 @@
                 .social-item{
                     font-size: 20px;
                     padding: 0 7px;
-                    color: rgb(178, 0, 0);       
+                    color: rgb(178, 0, 0);    
+                    &:hover{
+                        color: rgb(100, 100, 255);
+                        font-size: 40px;
+                    }   
                 }
             }
         }
@@ -95,6 +99,11 @@
                 list-style: none;
                 font-size: 20px;
                 line-height: 50px;
+                li{
+                    &:hover{
+                        color: yellow;
+                    }
+                }
             }
         }
         .footer-contact{

@@ -59,7 +59,6 @@
 <style lang="scss" scoped>
     .bg-service{
         background-color: black;
-        // height: 1000px;
         .container{
             padding: 120px 0 120px;
             .card-service{
@@ -67,6 +66,20 @@
                 border-radius: 10px;
                 text-align: center;
                 padding: 50px;
+                &:hover{
+                    border: 5px solid rgb(117, 0, 172);
+                    
+                    .card-header{
+                        .title{
+                            color: red;
+                        }
+                    }
+                    .card-info{
+                        .link{
+                            color: red;
+                        }
+                    }
+                }
                 .card-header img{
                     width: 100px;
                     filter: invert(1);

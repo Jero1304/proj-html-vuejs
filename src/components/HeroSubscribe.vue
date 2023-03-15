@@ -36,7 +36,6 @@
     background-image: linear-gradient(90deg,black 45%,rgba(6,6,7,0) 75%),url('../img/banner1-2x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    // min-height: 600px;
     padding-bottom: 200px;
     color: white;
     margin-top: 100px;
@@ -66,6 +65,10 @@
             font-weight: bold;
             color: white;
             margin: 30px;
+            &:hover{
+                background-color: rgba($color: #ff0000, $alpha: 0.4);
+                border-color: rgba($color: #ff0000, $alpha: 0.4);
+            }
         }
     }
 }

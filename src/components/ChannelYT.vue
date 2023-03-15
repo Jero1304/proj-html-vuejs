@@ -8,7 +8,7 @@
                 <p class="sub-title">Tune up your workouts</p>
                 <h1 class="title">The best health & fiteness advice online</h1>
                 <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil placeat tenetur possimus sunt totam ab?</p>
-                <button type="button" class="btn btn-danger">
+                <button type="button" class="btn">
                     <span>
                         <font-awesome-icon icon="fa-brands fa-youtube" class="px-2"/>
                     </span>
@@ -72,6 +72,10 @@ export default{
             font-weight: bold;
             color: white;
             margin-top: 30px;
+            background-color: red;
+            &:hover{
+                background-color: rgba($color: #ff0000, $alpha: 0.7);
+            }
         }
     }
             

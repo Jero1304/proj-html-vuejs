@@ -50,13 +50,16 @@ export default{
         .date{
             color: yellow;
             font-size: 36px;
-            margin-bottom: 0;
+            margin-bottom: 20px;
 
         }
         .link{
             text-decoration: none;
             color: currentColor;
             font-size: 20px;
+            &:hover{
+                color: black;
+            }
         }
     }
 }

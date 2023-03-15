@@ -15,8 +15,8 @@
                     <img src="../img/box1-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
                         <p>/\/\/\</p>
-                        <h2 class="card-title">Crossfit Workout</h2>
-                        <h3 class="card-text">Push your limits</h3>
+                        <h2 class="card-title">New gym apparel</h2>
+                        <h3 class="card-text">Look good, feel good</h3>
                     </div>
                 </div>
 
@@ -24,8 +24,8 @@
                     <img src="../img/box3-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
                         <p>/\/\/\</p>
-                        <h2 class="card-title">Crossfit Workout</h2>
-                        <h3 class="card-text">Push your limits</h3>
+                        <h2 class="card-title">Team training</h2>
+                        <h3 class="card-text">Find a partner</h3>
                     </div>
                 </div>     
             </div>
@@ -64,6 +64,15 @@
             padding: 0;
             margin: -60px 20px 30px;
             border: none;
+            &:hover{
+                border-radius: 50px;
+                border: 3px solid white;
+
+                img{
+                    border-radius: 50px;
+                    
+                }
+            }
             img{
                 border-radius: 0 0 50px;
             }
@@ -75,6 +84,9 @@
                 color: white;
                 padding: 30px;
                 border-radius: 0 0 50px;
+                &:hover{
+                    border-radius: 0 0 50px 50px;
+                }
                 .card-text{
                     color: yellow;
                 }

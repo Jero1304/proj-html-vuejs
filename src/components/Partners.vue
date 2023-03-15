@@ -63,6 +63,9 @@
             color: currentColor;
             font-size: 18px;
             font-weight: bold;
+            &:hover{
+                color: blue;
+            }
         }
     }
 

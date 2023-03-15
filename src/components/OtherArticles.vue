@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row py-4">
             <h3 class="col">Latest articles</h3>
-            <p class="col d-flex justify-content-end mb-0"> Read all articles ></p>
+            <p class="col d-flex justify-content-end mb-0 read-article"> Read all articles ></p>
         </div>
         <div class="row gap-4">
             <div class="card col">
@@ -42,6 +42,11 @@
 .container{
     padding-top: 140px;
     margin-bottom: 100px;
+    .read-article{
+        &:hover{
+            color: blue;
+        }
+    }
 
     .card{
         width: 400px;

@@ -9,13 +9,13 @@
                     <p class="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, itaque.</p>
 
                     <div class="hero-btn">
-                        <button type="button" class="btn btn-primary">
+                        <button type="button" class="btn btn-primary btn-yt">
                             <font-awesome-icon icon="fa-brands fa-youtube" class="px-2"/>
                            <span>
-                                visit my YouTube channel
+                                Visit my YouTube channel
                            </span>
                         </button>
-                        <button type="button" class="btn border">
+                        <button type="button" class="btn border btn-buy">
                            <span class="px-2">
                                 Buy Avada today
                            </span>
@@ -73,6 +73,20 @@ export default{
             color: white;
             margin-top: 30px;
             font-size: 16px;
+        }
+        .hero-btn{
+            .btn-yt:hover{
+                background-color: red;
+                border-color: red;
+                color: black;
+            }
+            .btn-buy:hover{
+                background-color: white;
+                border-color: white;
+                color: black;
+            }
+
+                
         }
     }
 }

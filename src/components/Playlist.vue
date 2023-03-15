@@ -2,7 +2,7 @@
     <div class="container">
         <div class="row py-4">
             <h3 class="col">Featured playlist</h3>
-            <p class="col d-flex justify-content-end mb-0"> View all videos ></p>
+            <p class="col d-flex justify-content-end mb-0 view-video"> View all videos ></p>
         </div>
         <div class="row gap-4">
             <div class="card col">
@@ -56,11 +56,22 @@ export default{
 .container{
     padding-top: 140px;
     margin-bottom: 100px;
+    .view-video{
+        &:hover{
+            color: blue;
+        }
+    }
 
     .card{
         width: 400px;
         border: none;
         position: relative;
+        &:hover{
+            .card-title{
+                color: blueviolet;
+                font-weight: bold;
+            }
+        } 
         .cover{
             .play-component{
                 position: absolute;
@@ -70,6 +81,16 @@ export default{
                 width: 10px;
                 font-size: 16px;
                 padding: 15px 25px;
+            }
+            &:hover{
+                border-radius: 50px;
+                .play-component{
+                    display: none;
+                }
+    
+                img{
+                    border: 2px solid blue;
+                }
             }
             img{
                 border-radius: 0 0 50px;

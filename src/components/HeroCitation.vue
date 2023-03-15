@@ -10,7 +10,7 @@
                         Arcu auctor gravida nisl, congue sit nisi tincidunt eget proin. In lacinia lacus donec sed massa in ipsum eros, tristique. Gravida suspendisse etiam in iaculis
                     </p>
                     <button type="button" class="btn btn-primary">
-                            Buy today
+                        Buy today
                     </button>
                 </div>
             </div>
@@ -50,6 +50,10 @@
             font-weight: bold;
             color: white;
             margin: 30px;
+            &:hover{
+                background-color: rgba($color: #ff0000, $alpha: 0.7);
+                border: 1px solid red;
+            }
         }
     }
 }
