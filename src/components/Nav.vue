@@ -110,5 +110,22 @@ export default {
         font-size: 18px;
         padding: 0 20px;
     }
+    .nav-item :hover{
+        color: violet;
+    }
+    .dropdown-menu{
+        background-color: rgba($color: #000000, $alpha: 0.6);
+        .dropdown-item{
+            color: white;
+            &:hover{
+                color: violet;
+            }
+        }
+    }
+
+    button:hover{
+        background-color: red;
+        border-color: red;
+    }
 }
 </style>

@@ -24,7 +24,7 @@
 
 <style scoped lang="scss">
 .bg-hero{
-    background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 50%, rgba(0,0,0,0) 100%),url('../img/banner2-2x.jpg');
+    background-image:linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%),url('../img/banner2-2x.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     padding-bottom: 200px;
