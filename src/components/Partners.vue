@@ -16,7 +16,7 @@
                 <p class="partner-info">
                     Tristique aliquam in nullam habitasse nunc, amet vel consectetur. Nulla in suspendisse dolor, aliquet.
                 </p>
-                <a href="#" class="link">Visit Yoga Studio ></a>
+                <a href="#" class="link">Join Fitness Center ></a>
             </div>
 
             <div class="col partner">
@@ -25,7 +25,7 @@
                 <p class="partner-info">
                     Tristique aliquam in nullam habitasse nunc, amet vel consectetur. Nulla in suspendisse dolor, aliquet.
                 </p>
-                <a href="#" class="link">Visit Yoga Studio ></a>
+                <a href="#" class="link">Learn about FC ></a>
             </div>
 
             <div class="col partner">
@@ -34,7 +34,7 @@
                 <p class="partner-info">
                     Tristique aliquam in nullam habitasse nunc, amet vel consectetur. Nulla in suspendisse dolor, aliquet.
                 </p>
-                <a href="#" class="link">Visit Yoga Studio ></a>
+                <a href="#" class="link">Visit Power Gym ></a>
             </div>
         </div>
     </div>
