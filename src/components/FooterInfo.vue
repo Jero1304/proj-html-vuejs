@@ -61,74 +61,92 @@
 </script>
 
 <style scoped lang="scss">
-.bg-footer{
-    background-color: black;
-    .container{
-        padding: 150px 0;
-        text-align: center;
-        .logo{
-            padding-bottom: 15px;
-        }
-        .info{
-            color: white;
-            font-size: 18px;
-        }
-        .footer-social{
-            .social{
-                justify-content: center;
-                align-items: center;
-                padding-top: 30px;
-                .social-item{
-                    font-size: 20px;
-                    padding: 0 7px;
-                    color: rgb(178, 0, 0);    
-                    &:hover{
-                        color: rgb(100, 100, 255);
-                        font-size: 40px;
-                    }   
-                }
-            }
-        }
-        .footer-post{
-            color:white;
-            .post-title{
-                padding-bottom: 20px;
-                font-size: 24px;
-            }
-            .recent-post{
-                list-style: none;
-                font-size: 20px;
-                line-height: 50px;
-                li{
-                    &:hover{
-                        color: yellow;
-                    }
-                }
-            }
-        }
-        .footer-contact{
-            color:white;
-            .contact-title{
-                padding-bottom: 20px;
-                font-size: 24px;
-            }
-            .address{
-                padding: 20px 0;
-                color: gray;
-                font-size: 18px;
-            }
-            .phone,.mail{
-                font-size: 18px;
-                line-height: 10px;
-            }
-        }
+.bg-footer {
+  background-color: black;
+  
+  .container {
+    padding: 150px 0;
+    text-align: center;
+    
+    .logo {
+      padding-bottom: 15px;
     }
+    
+    .info {
+      color: white;
+      font-size: 18px;
+    }
+    
+    .footer-social {
+      .social {
+        justify-content: center;
+        align-items: center;
+        padding-top: 30px;
+        
+        .social-item {
+            cursor: pointer;
+          font-size: 30px;
+        //   padding: 0 7px;
+          gap: 30px;
+          color: rgb(178, 0, 0);
+          transition: transform 0.3s, color 0.3s;
+          
+          &:hover {
+            color: rgb(100, 100, 255);
+            transform: scale(1.8);
+          }
+        }
+      }
+    }
+    
+    .footer-post {
+      color: white;
+      
+      .post-title {
+        padding-bottom: 20px;
+        font-size: 24px;
+      }
+      
+      .recent-post {
+        list-style: none;
+        font-size: 20px;
+        line-height: 50px;
+        
+        li {
+          &:hover {
+            color: yellow;
+          }
+        }
+      }
+    }
+    
+    .footer-contact {
+      color: white;
+      
+      .contact-title {
+        padding-bottom: 20px;
+        font-size: 24px;
+      }
+      
+      .address {
+        padding: 20px 0;
+        color: gray;
+        font-size: 18px;
+      }
+      
+      .phone, .mail {
+        font-size: 18px;
+        line-height: 10px;
+      }
+    }
+  }
+}
 
+.separator {
+  color: gray;
+  font-size: 7px;
 }
-.separator{
-    color: gray;
-    font-size: 7px;
-}
+
 .copyright{
     color: lightgray;
 }
