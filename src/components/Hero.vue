@@ -5,7 +5,7 @@
                 <div class="col-9">
                     <h3 class="text-danger">Certifild fiteness professional</h3>
                     <h1 class="hero-title">Take control of your health</h1>
-                    <p>/\/\/\</p>
+                    <TextSeparator/>
                     <p class="hero-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Autem, itaque.</p>
 
                     <div class="hero-btn">
@@ -35,9 +35,11 @@
 
 <script>
 import PlayButton from './PlayButton.vue';
+import TextSeparator from './TextSeparator.vue';
 export default{
     components:{
         PlayButton,
+        TextSeparator,
     }
 }
 

@@ -4,7 +4,8 @@
             <div class="row align-items-center justify-content-center">
                 <div class="col-8">
                     <h1 class="hero-citation">“I’ve failed over and over again in my life. And that is why I succeed.”</h1>
-                    <p class="separator">/\/\/\</p>
+
+                    <TextSeparator style="margin: 0px auto;justify-content: center;"/>
 
                     <p class="hero-text">
                         Arcu auctor gravida nisl, congue sit nisi tincidunt eget proin. In lacinia lacus donec sed massa in ipsum eros, tristique. Gravida suspendisse etiam in iaculis
@@ -19,7 +20,12 @@
 </template>
 
 <script>
-
+import TextSeparator from './TextSeparator.vue';
+export default{
+    components:{
+        TextSeparator,
+    }
+}
 </script>
 
 <style scoped lang="scss">

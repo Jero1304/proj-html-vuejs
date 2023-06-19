@@ -5,7 +5,7 @@
                 <div class="col-8">
                     <h3 class="text-danger">Join our mailing list today</h3>
                     <h1 class="hero-title">Insider offers & flash sales in your inbox every week</h1>
-                    <p>/\/\/\</p>
+                    <TextSeparator/>
 
                     <div class="hero-btn">
                         <input type="email" class="form-control email" aria-describedby="emailHelp" placeholder="Insert your e-mail">
@@ -28,7 +28,12 @@
 </template>
 
 <script>
-
+import TextSeparator from './TextSeparator.vue';
+export default{
+    components:{
+        TextSeparator,
+    }
+}
 </script>
 
 <style scoped lang="scss">
