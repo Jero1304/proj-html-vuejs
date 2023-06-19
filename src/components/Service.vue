@@ -27,11 +27,12 @@
                         <h2 class="card-title">Team training</h2>
                         <h3 class="card-text">Find a partner</h3>
                     </div>
-                </div>     
+                </div>
             </div>
             <div class="container citation">
                 <h1 class="text-citation">
-                    “How you respond to the service in the second half will determine what you become after the game, whether you are a winner or a loser.”
+                    “How you respond to the service in the second half will determine what you become after the game,
+                    whether you are a winner or a loser.”
                 </h1>
                 <p class="text-white fs-2 py-2">/\/\/\</p>
                 <div class="person-citation">
@@ -52,71 +53,86 @@
 </script>
 
 <style lang="scss" scoped>
-.bg-service{
-    background: rgb(14,0,255);
-    background: linear-gradient(135deg, rgba(14,0,255,1) 0%, rgba(141,0,150,1) 50%, rgba(255,0,0,1) 100%);
+.bg-service {
+    background: rgb(14, 0, 255);
+    background: linear-gradient(135deg, rgba(14, 0, 255, 1) 0%, rgba(141, 0, 150, 1) 50%, rgba(255, 0, 0, 1) 100%);
     padding: 0 120px 200px;
-    .row{
+
+    .row {
         margin: 0 -1.5rem;
-        .card{
+
+        .card {
             background: none;
             width: 400px;
             padding: 0;
             margin: -60px 20px 30px;
             border: none;
-            &:hover{
-                border-radius: 50px;
-                border: 3px solid white;
+            transition: border-radius 0.3s, border 0.3s, box-shadow 0.3s;
 
-                img{
+            &:hover {
+                border-radius: 50px;
+                // border: 3px solid white;
+                -webkit-box-shadow: 0 5px 25px 15px #FFFFFF;
+                -moz-box-shadow: 0 5px 25px 15px #FFFFFF;
+                -o-box-shadow: 0 5px 25px 15px #FFFFFF;
+                box-shadow: 0 5px 25px 15px #FFFFFF;
+
+                img {
                     border-radius: 50px;
+                    transition: border-radius 0.3s, border 0.3s;
                 }
-                .card-img-overlay{
+
+                .card-img-overlay {
                     border-radius: 0 0 50px 50px;
                 }
             }
-            img{
+
+            img {
                 border-radius: 0 0 50px;
             }
-            .card-img-overlay{
-                background: linear-gradient(0deg, rgba(0,0,0,1) 0%, rgba(0,0,0,0) 100%);
+
+            .card-img-overlay {
+                background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 0) 100%);
                 position: absolute;
                 bottom: 0;
-                top:auto;
+                top: auto;
                 color: white;
                 padding: 30px;
                 border-radius: 0 0 50px;
-                
-                .card-text{
+
+                .card-text {
                     color: yellow;
                 }
             }
         }
     }
 
-    .citation{
+    .citation {
         text-align: center;
         padding-bottom: 70px;
-        .text-citation{
+
+        .text-citation {
             color: white;
             padding: 100px 150px 0;
         }
-        .person-citation{
+
+        .person-citation {
             display: flex;
             align-items: center;
             justify-content: center;
             gap: 14px;
-            .profile-citation{
+
+            .profile-citation {
                 width: 70px;
                 border-radius: 999px;
             }
-            h3{
+
+            h3 {
                 color: white;
                 font-size: 22px;
             }
-            
+
         }
     }
 }
-
 </style>
