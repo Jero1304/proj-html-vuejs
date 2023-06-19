@@ -5,7 +5,6 @@
                 <div class="card">
                     <img src="../img/service6-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <p>/\/\/\</p>
                         <h2 class="card-title">Crossfit Workout</h2>
                         <h3 class="card-text">Push your limits</h3>
                     </div>
@@ -14,7 +13,6 @@
                 <div class="card">
                     <img src="../img/box1-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <p>/\/\/\</p>
                         <h2 class="card-title">New gym apparel</h2>
                         <h3 class="card-text">Look good, feel good</h3>
                     </div>
@@ -23,7 +21,6 @@
                 <div class="card">
                     <img src="../img/box3-2x.jpg" class="card-img" alt="...">
                     <div class="card-img-overlay">
-                        <p>/\/\/\</p>
                         <h2 class="card-title">Team training</h2>
                         <h3 class="card-text">Find a partner</h3>
                     </div>
@@ -34,7 +31,7 @@
                     “How you respond to the service in the second half will determine what you become after the game,
                     whether you are a winner or a loser.”
                 </h1>
-                <p class="text-white fs-2 py-2">/\/\/\</p>
+                <TextSeparator style="margin: 0 auto;justify-content: center;"/>
                 <div class="person-citation">
                     <img class="profile-citation" src="../img/avatar-1-2x.jpg" alt="">
                     <h3 class="name-citation fw-bold">Brad Johnson</h3>
@@ -50,6 +47,12 @@
 </template>
 
 <script>
+import TextSeparator from './TextSeparator.vue';
+export default{
+    components:{
+        TextSeparator,
+    }
+}
 </script>
 
 <style lang="scss" scoped>
