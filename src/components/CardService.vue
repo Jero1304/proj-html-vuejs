@@ -67,8 +67,9 @@
                 text-align: center;
                 padding: 50px;
                 transition: border-radius 0.3s, transform 0.3s;
+                cursor: pointer;
                 &:hover{
-                    border: 5px solid rgb(117, 0, 172);
+                     border: 5px solid rgb(117, 0, 172);
                     border-radius: 40px;
                     transform: scale(1.1);
                     

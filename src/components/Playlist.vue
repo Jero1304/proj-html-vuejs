@@ -87,10 +87,7 @@ export default{
                 .play-component{
                     display: none;
                 }
-    
-                img{
-                    border: 2px solid blue;
-                }
+
             }
             img{
                 border-radius: 0 0 50px;
