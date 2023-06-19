@@ -64,6 +64,7 @@
 <style lang="scss" scoped>
 .bg-service {
   background-color: black;
+  min-height: 800px;
 
   .container {
     padding: 120px 0 120px;
