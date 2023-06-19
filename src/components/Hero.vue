@@ -78,7 +78,6 @@ export default{
             .btn-yt:hover{
                 background-color: red;
                 border-color: red;
-                color: black;
             }
             .btn-buy:hover{
                 background-color: white;

@@ -66,8 +66,10 @@
                 border-radius: 10px;
                 text-align: center;
                 padding: 50px;
+                transition: border-radius 0.3s;
                 &:hover{
                     border: 5px solid rgb(117, 0, 172);
+                    border-radius: 40px;
                     
                     .card-header{
                         .title{

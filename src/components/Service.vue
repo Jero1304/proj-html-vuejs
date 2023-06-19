@@ -70,7 +70,9 @@
 
                 img{
                     border-radius: 50px;
-                    
+                }
+                .card-img-overlay{
+                    border-radius: 0 0 50px 50px;
                 }
             }
             img{
@@ -84,9 +86,7 @@
                 color: white;
                 padding: 30px;
                 border-radius: 0 0 50px;
-                &:hover{
-                    border-radius: 0 0 50px 50px;
-                }
+                
                 .card-text{
                     color: yellow;
                 }
